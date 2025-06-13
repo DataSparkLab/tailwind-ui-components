@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwind UI Components</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.svg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./assets/css/tailwind.css" />
+    <style>
+      .component-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 1rem;
+      }
+      .component-card {
+        border: 1px solid #e5e7eb;
+        border-radius: 0.5rem;
+        padding: 1rem;
+        transition: all 0.3s ease;
+      }
+      .component-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50">
+    <header class="bg-primary py-6">
+      <div class="container mx-auto px-4">
+        <h1 class="text-3xl font-bold text-white text-center">Tailwind UI Components</h1>
+        <p class="text-white text-center mt-2">A comprehensive collection of UI components built with Tailwind CSS</p>
+      </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-10">
+      <!-- Application Components -->
+      <section class="mb-16">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">Application Components</h2>
+        <div class="component-grid">
+          <a href="./application/404/404-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">404 Pages</h3>
+            <p class="text-gray-600 mt-2">Error pages for not found content</p>
+          </a>
+          <a href="./application/blogs/blog-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Blogs</h3>
+            <p class="text-gray-600 mt-2">Blog layouts and components</p>
+          </a>
+          <a href="./application/cards/card-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Cards</h3>
+            <p class="text-gray-600 mt-2">Content containers for various uses</p>
+          </a>
+          <a href="./application/contacts/contact-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Contacts</h3>
+            <p class="text-gray-600 mt-2">Contact form layouts</p>
+          </a>
+          <a href="./application/footers/footer-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Footers</h3>
+            <p class="text-gray-600 mt-2">Page footer designs</p>
+          </a>
+          <a href="./application/modals/modal-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Modals</h3>
+            <p class="text-gray-600 mt-2">Popup dialogs and notifications</p>
+          </a>
+          <a href="./application/navbars/navbar-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Navbars</h3>
+            <p class="text-gray-600 mt-2">Navigation bar components</p>
+          </a>
+          <a href="./application/signin/sign-In-up-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Sign In/Up</h3>
+            <p class="text-gray-600 mt-2">Authentication form layouts</p>
+          </a>
+          <a href="./application/table-grids/table-grid-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Table Grids</h3>
+            <p class="text-gray-600 mt-2">Data table grid layouts</p>
+          </a>
+          <a href="./application/tables/tables-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Tables</h3>
+            <p class="text-gray-600 mt-2">Data table components</p>
+          </a>
+        </div>
+      </section>
+
+      <!-- Core Components -->
+      <section class="mb-16">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">Core Components</h2>
+        <div class="component-grid">
+          <a href="./core-components/account-dropdowns/account-dropdown-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Account Dropdowns</h3>
+            <p class="text-gray-600 mt-2">User account dropdown menus</p>
+          </a>
+          <a href="./core-components/alerts/alerts.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Alerts</h3>
+            <p class="text-gray-600 mt-2">Notification and alert components</p>
+          </a>
+          <a href="./core-components/avatars/avatars-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Avatars</h3>
+            <p class="text-gray-600 mt-2">User profile image components</p>
+          </a>
+          <a href="./core-components/badges/badges.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Badges</h3>
+            <p class="text-gray-600 mt-2">Small count and status indicators</p>
+          </a>
+          <a href="./core-components/breadcrumbs/breadcrumbs.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Breadcrumbs</h3>
+            <p class="text-gray-600 mt-2">Page navigation breadcrumb trails</p>
+          </a>
+          <a href="./core-components/button-groups/button-group-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Button Groups</h3>
+            <p class="text-gray-600 mt-2">Grouped button components</p>
+          </a>
+          <a href="./core-components/buttons/buttons.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Buttons</h3>
+            <p class="text-gray-600 mt-2">Button styles and variations</p>
+          </a>
+          <a href="./core-components/clipboards/clipboard-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Clipboards</h3>
+            <p class="text-gray-600 mt-2">Copy to clipboard components</p>
+          </a>
+          <a href="./core-components/date-picker/date-picker-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Date Pickers</h3>
+            <p class="text-gray-600 mt-2">Date selection components</p>
+          </a>
+          <a href="./core-components/dropdowns/dropdowns.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Dropdowns</h3>
+            <p class="text-gray-600 mt-2">Dropdown menu components</p>
+          </a>
+          <a href="./core-components/file-uploads/file-upload-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">File Uploads</h3>
+            <p class="text-gray-600 mt-2">File upload form components</p>
+          </a>
+          <a href="./core-components/galleries/gallery-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Galleries</h3>
+            <p class="text-gray-600 mt-2">Image gallery layouts</p>
+          </a>
+          <a href="./core-components/input-range/input-range-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Input Range</h3>
+            <p class="text-gray-600 mt-2">Range slider components</p>
+          </a>
+          <a href="./core-components/inputs/input.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Inputs</h3>
+            <p class="text-gray-600 mt-2">Form input field components</p>
+          </a>
+          <a href="./core-components/lists/lists.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Lists</h3>
+            <p class="text-gray-600 mt-2">List layout components</p>
+          </a>
+          <a href="./core-components/mega-menu/mega-menu-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Mega Menus</h3>
+            <p class="text-gray-600 mt-2">Advanced dropdown navigation menus</p>
+          </a>
+          <a href="./core-components/otp/otp-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">OTP</h3>
+            <p class="text-gray-600 mt-2">One-time password input components</p>
+          </a>
+          <a href="./core-components/page-title/page-title-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Page Titles</h3>
+            <p class="text-gray-600 mt-2">Page header and title components</p>
+          </a>
+          <a href="./core-components/paginations/pagination-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Paginations</h3>
+            <p class="text-gray-600 mt-2">Page navigation components</p>
+          </a>
+          <a href="./core-components/progress-bars/progress-bars.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Progress Bars</h3>
+            <p class="text-gray-600 mt-2">Progress indicator components</p>
+          </a>
+          <a href="./core-components/ratings/rating-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Ratings</h3>
+            <p class="text-gray-600 mt-2">Star rating components</p>
+          </a>
+          <a href="./core-components/select/select.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Select</h3>
+            <p class="text-gray-600 mt-2">Dropdown selection components</p>
+          </a>
+          <a href="./core-components/skeletons/skeleton-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Skeletons</h3>
+            <p class="text-gray-600 mt-2">Content loading placeholder components</p>
+          </a>
+          <a href="./core-components/spinners/spinner-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Spinners</h3>
+            <p class="text-gray-600 mt-2">Loading indicator components</p>
+          </a>
+          <a href="./core-components/sticky-bars/sticky-bar-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Sticky Bars</h3>
+            <p class="text-gray-600 mt-2">Fixed position notification bars</p>
+          </a>
+          <a href="./core-components/switches/switch.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Switches</h3>
+            <p class="text-gray-600 mt-2">Toggle switch components</p>
+          </a>
+          <a href="./core-components/tabs/tabs.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Tabs</h3>
+            <p class="text-gray-600 mt-2">Tab navigation components</p>
+          </a>
+          <a href="./core-components/tags/tags.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Tags</h3>
+            <p class="text-gray-600 mt-2">Label and tag components</p>
+          </a>
+          <a href="./core-components/textarea/textarea.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Textarea</h3>
+            <p class="text-gray-600 mt-2">Multiline text input components</p>
+          </a>
+          <a href="./core-components/time-picker/time-picker-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Time Pickers</h3>
+            <p class="text-gray-600 mt-2">Time selection components</p>
+          </a>
+          <a href="./core-components/toasts/toast-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Toasts</h3>
+            <p class="text-gray-600 mt-2">Notification toast components</p>
+          </a>
+          <a href="./core-components/tooltips/tooltips.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Tooltips</h3>
+            <p class="text-gray-600 mt-2">Information tooltip components</p>
+          </a>
+        </div>
+      </section>
+
+      <!-- Marketing Components -->
+      <section class="mb-16">
+        <h2 class="text-2xl font-bold text-gray-800 mb-6">Marketing Components</h2>
+        <div class="component-grid">
+          <a href="./marketing/abouts/about-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">About Sections</h3>
+            <p class="text-gray-600 mt-2">About page content sections</p>
+          </a>
+          <a href="./marketing/brands/brands-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Brand Sections</h3>
+            <p class="text-gray-600 mt-2">Brand showcase components</p>
+          </a>
+          <a href="./marketing/call-to-actions/cta-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Call to Actions</h3>
+            <p class="text-gray-600 mt-2">CTA section components</p>
+          </a>
+          <a href="./marketing/faqs/faq-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">FAQs</h3>
+            <p class="text-gray-600 mt-2">Frequently asked questions sections</p>
+          </a>
+          <a href="./marketing/heros/hero-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Hero Sections</h3>
+            <p class="text-gray-600 mt-2">Page header hero components</p>
+          </a>
+          <a href="./marketing/newsletters/newsletter-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Newsletters</h3>
+            <p class="text-gray-600 mt-2">Email signup form components</p>
+          </a>
+          <a href="./marketing/portfolios/portfolio-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Portfolios</h3>
+            <p class="text-gray-600 mt-2">Work showcase components</p>
+          </a>
+          <a href="./marketing/pricings/pricing-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Pricing Tables</h3>
+            <p class="text-gray-600 mt-2">Price comparison components</p>
+          </a>
+          <a href="./marketing/services/services-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Services</h3>
+            <p class="text-gray-600 mt-2">Service offering components</p>
+          </a>
+          <a href="./marketing/stats/stats-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Stats</h3>
+            <p class="text-gray-600 mt-2">Statistical data display components</p>
+          </a>
+          <a href="./marketing/teams/team-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Team Sections</h3>
+            <p class="text-gray-600 mt-2">Team member showcase components</p>
+          </a>
+          <a href="./marketing/testimonials/testimonial-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Testimonials</h3>
+            <p class="text-gray-600 mt-2">Customer review components</p>
+          </a>
+          <a href="./marketing/videos/video-01.html" class="component-card">
+            <h3 class="text-lg font-semibold text-gray-800">Videos</h3>
+            <p class="text-gray-600 mt-2">Video embed components</p>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-white py-8 border-t border-gray-200">
+      <div class="container mx-auto px-4 text-center">
+        <p class="text-gray-600">
+          &copy; 2023 Tailwind UI Components. All rights reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
